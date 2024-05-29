@@ -29,7 +29,7 @@ let three = 0;
 let four = 0;
 let five = 0;
 let six = 0;
-var counter = document.getElementById("counter-Out")
+
 let diceOutputEL = document.getElementById("dice-Output");
 
 document.getElementById("roll").addEventListener("click", rollDice);
@@ -55,5 +55,4 @@ function rollDice() {
     diceOutputEL.src = "img/1.png";
     one = one + 1;
   }
-  counter-Out.innerHTML = `One:${one} Two:${two} Three:${three} Four:${four} Five:${five} Six:${six}`;
 }
